@@ -1,0 +1,31 @@
+div#ourcolumns{
+	-webkit-column-count:2; /* Safari and Chrome */
+	-moz-column-count:2; /* Firefox */
+	column-count:2; /* Everyone Else */
+	-webkit-column-gap:30px;
+	-moz-column-gap:30px;
+	column-gap:30px;
+	-webkit-column-rule:20px groove #009933;
+	-moz-column-rule:20px groove #009933;
+	column-rule:20px groove #009933;
+	width: 20cm;
+	background-image:url("../images/LV.jpg");
+	color: black;
+	padding: 10px;
+	border: 10px dotted purple;
+opacity:0.5;
+	/*background-clip: padding-box;*/
+	/*background-origin: border-box;*/
+	background-position: top left;
+	text-indent: 50px;
+	text-decoration: underline;
+	margin: 100px;
+}
+
+div#background{
+		background-repeat: repeat;
+	background-size: 400px;
+	background-attachment: scroll;
+	width:500px;
+	
+}

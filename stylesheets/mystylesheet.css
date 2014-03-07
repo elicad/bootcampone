@@ -49,6 +49,9 @@ table {
 }
 
 /*My CSS reset*/
+-webkit-column-count:2; /* Safari and Chrome */
+-moz-column-count:2; /* Firefox */
+column-count:2;
 aside
 {
 float: right;
@@ -60,8 +63,8 @@ aside#noside {
 	float: center;
 	opacity: 0.5;
 }
-body {background-image:url("../images/blue.png");
-background-size: 100%;
+body {background-image:url("../images/LV.jpg");
+background-repeat: no-repeat;
 }
 
 p, header, footer, h1 {
